@@ -122,10 +122,10 @@ Para la preparación de la entrega del examen, el proyecto debe estar comprimido
 
 > Importante: **haz una copia en local y ==borra el directorio `build` de ambos proyectos que están en el directorio raíz del proyecto (no va a existir, en principio) y/o en el directorio app/==**. **No podrás enviar el archivo si no lo haces**, pues el **tamaño del archivo superará el límite permitido**==. Debería borrarse:
 >
->_- **`build/`**: si existe, este directorio contiene los archivos generados durante la compilación._
+>- **`build/`**: si existe, este directorio contiene los archivos generados durante la compilación.
 >- **`app/build/`**: igual que el build/ en la raíz del proyecto, este contiene los archivos de compilación específicos de la aplicación.
     
-Debes hacer dos entregas, **habiendo comprimido el archivo en un `.zip` ambos proyectos**
+Debes hacer dos entregas, **habiendo comprimido el archivo en otro `.zip` ambos proyectos ya comprimidos**
     
 Pulsando el ratón y la tecla Ctrl sobre la **carpeta del proyecto de Android Studio -> Botón derecho ->** **_7-zip -> Engadir ao arquivo...._**. Os ayudaré si tenéis problemas.
 
