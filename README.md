@@ -8,7 +8,7 @@ https://manuais.pages.iessanclemente.net/plantillas/dam/pmdmd/99exames/03exame3e
 
 -->
 
-## Ejercicio 2. Lista de Tareas en Android con Compose
+## Ejercicio. Lista de Tareas en Android con Compose
 
 Se trata de implementar una aplicación Android que gestione una lista de tareas usando Jetpack Compose y ViewModel, siguiendo la estructura de clases especificada.
 
@@ -109,23 +109,25 @@ Para la preparación de la entrega del examen, el proyecto debe estar comprimido
 - Cambia el nombre del archivo a **`Apellido1Apellido2Nombre3Eval.zip`** (o `.7z` si prefieres ese formato).
 - Existen dos métodos para **crear el archivo comprimido** (debes hacerlo con ambos proyectos):
 
-**Método desde Android Studio**:
-    - Ve a **File -> Export to Zip File...** y selecciona la ubicación donde guardar el archivo comprimido.
-    - Asegúrate de que el archivo comprimido contenga el proyecto.
+### Desde Android Studio
 
-**Método manual:**
-    - Navega al directorio del proyecto en tu sistema de archivos (usualmente el escritorio en el caso de exámenes).
-    - Navega hasta el directorio app/ del proyecto y borra el directorio `build/` si existe (en algún caso podría haber un directorio `build/` en la raíz del proyecto, lo dudo, pero bórralo si existe).
-    - Haz clic derecho y selecciona "Comprimir" o "Añadir al archivo..." dependiendo de tu sistema operativo.
+- Ve a **File -> Export to Zip File...** y selecciona la ubicación donde guardar el archivo comprimido.
+- Asegúrate de que el archivo comprimido contenga el proyecto.
 
-Importante: **haz una copia en local y ==borra el directorio `build` de ambos proyectos que están en el directorio raíz del proyecto (no va a existir, en principio) y/o en el directorio app/==**. **No podrás enviar el archivo si no lo haces**, pues el **tamaño del archivo superará el límite permitido**==. Debería borrarse:
+### Método manual
 
-_- **`build/`**: si existe, este directorio contiene los archivos generados durante la compilación._
+- Navega al directorio del proyecto en tu sistema de archivos (usualmente el escritorio en el caso de exámenes).
+- Navega hasta el directorio app/ del proyecto y borra el directorio `build/` si existe (en algún caso podría haber un directorio `build/` en la raíz del proyecto, lo dudo, pero bórralo si existe).
+- Haz clic derecho y selecciona "Comprimir" o "Añadir al archivo..." dependiendo de tu sistema operativo.
 
-- **`app/build/`**: igual que el build/ en la raíz del proyecto, este contiene los archivos de compilación específicos de la aplicación.
-
+> Importante: **haz una copia en local y ==borra el directorio `build` de ambos proyectos que están en el directorio raíz del proyecto (no va a existir, en principio) y/o en el directorio app/==**. **No podrás enviar el archivo si no lo haces**, pues el **tamaño del archivo superará el límite permitido**==. Debería borrarse:
+    
+    _- **`build/`**: si existe, este directorio contiene los archivos generados durante la compilación._
+    
+    - **`app/build/`**: igual que el build/ en la raíz del proyecto, este contiene los archivos de compilación específicos de la aplicación.
+    
 Debes hacer dos entregas, **habiendo comprimido el archivo en un `.zip` ambos proyectos**
-
+    
 Pulsando el ratón y la tecla Ctrl sobre la **carpeta del proyecto de Android Studio -> Botón derecho ->** **_7-zip -> Engadir ao arquivo...._**. Os ayudaré si tenéis problemas.
 
 El formato de fichero debe ser:
