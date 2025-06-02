@@ -38,7 +38,7 @@ _1,5 puntos_
     - `onCheckedChange: (Boolean) -> Unit` // función para manejar el cambio de estado del checkbox
     - `onDelete: () -> Unit` // función para manejar el borrado de la tarea
 
-![TareaItem](../media/tareaitem.svg?width=500)
+![TareaItem](media/tareaitem.svg?width=500)
 
 **UI Requerida**:
 
